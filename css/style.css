@@ -95,7 +95,12 @@ h6,
     width: 100%;
     max-width: 100px;
 }
-
+@media screen and (max-width: 991px) {
+    .navbar{
+        height: 100px;
+        padding: 0px 0 20px !important;
+    }
+}
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 0;
@@ -439,7 +444,7 @@ h6,
 .project10{
     height: 25rem;
     width: 100%;
-    background-image: url(../img/image8.jpeg);
+    background-image: url(../img/tony.jpeg);
     background-size: 110% !important;
     background-repeat: no-repeat !important;
     background-position: center;
